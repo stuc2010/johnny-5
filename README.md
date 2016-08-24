@@ -212,6 +212,3 @@ Add the subdomain hubot should connect to. If you web URL looks like
 
 You may want to get comfortable with `heroku logs` and `heroku restart` if
 you're having issues.
-=======
-Repo for the BackChannel slack chat bot
->>>>>>> e796a65e493067a6cd8fee5de0c73de9da26b9e9
