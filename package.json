@@ -22,7 +22,8 @@
     "hubot-calculator": ">= 0.4.0",
     "hubot-what-the-fox": "*",
     "hubot-wolfram": "*",
-    "hubot-meowme": ">= 0.0.1"
+    "hubot-meowme": ">= 0.0.1",
+    "hubot-hello": "*"
   },
   "engines": {
     "node": "0.10.x"
