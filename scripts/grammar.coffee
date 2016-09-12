@@ -15,5 +15,5 @@ module.exports = (robot) ->
   robot.hear /a [aeiou]{1}[\w]{0,}/i, (res) ->
       res.send "You probably meant \"an\""
                 
-  robot.hear /an [^aeiou]{1}[\w]{0,}/i, (res) ->
+  robot.hear /^an [^aeiou]{1}[\w]{0,}/i, (res) ->
       res.send "You probably meant \"a\""
