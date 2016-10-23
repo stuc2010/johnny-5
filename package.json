@@ -21,7 +21,6 @@
     "hubot-seen": "*",
     "hubot-calculator": ">= 0.4.0",
     "hubot-what-the-fox": "*",
-    "hubot-wolfram": "*",
     "hubot-meowme": ">= 0.0.1",
     "hubot-hello": "*"
   },

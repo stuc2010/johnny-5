@@ -24,11 +24,10 @@ As well as a number of [external npm scripts](#external-scripts):
 - [hubot-pugme](https://www.npmjs.com/package/ubot-pugme)
 - [hubot-redis-brain](https://www.npmjs.com/package/hubot-redis-brain)
 - [hubot-rules](https://www.npmjs.com/package/hubot-rules)
-- [hubot-seen](https://www.npmjs.com/package/hubot-hubot-seen)_
+- [hubot-seen](https://www.npmjs.com/package/hubot-hubot-seen)
 - [hubot-tell](https://www.npmjs.com/package/hubot-tell)
 - [hubot-thank-you](https://www.npmjs.com/package/hubot-thank-you)
 - [hubot-what-the-fox](https://www.npmjs.com/package/hubot-what-the-fox)
-- [hubot-wolfram](https://www.npmjs.com/package/hubot-wolfram)
 - [hubot-youtube](https://www.npmjs.com/package/hubot-youtube)
 
 
