@@ -6,7 +6,7 @@
 
 module.exports = (robot) ->
 
-  robot.hear /its (a|the|my|just|only|when|an|your|about|mine)/i, (res) ->
+  robot.hear /its (a|the|my|just|only|when|an|your|about|mine|not|never)/i, (res) ->
       res.send "I think you meant \"it's\""
         
   robot.hear /[\w] and me/i, (res) ->
@@ -15,5 +15,5 @@ module.exports = (robot) ->
   robot.hear /a [aeiou]{1}[\w]{0,}/i, (res) ->
       res.send "You probably meant \"an\""
                 
-  robot.hear /^an [^aeiou]{1}[\w]{0,}/i, (res) ->
+  robot.hear /(an) [^aeiou]{1}[\w]{0,}/i, (res) ->
       res.send "You probably meant \"a\""
